@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus ist ein Projekt der Cloud Native Computing Foundation zur Überwachung von Systemen und Diensten und bietet eine Zeitreihendatenbank (TSDB).<br>Der Standardport ist 9090. Konfigurieren Sie Firewall, Passwort und weitere Zugriffsbeschränkungen, um Ihre Daten zu schützen.<br>Wenn Sie basic_auth_users aktivieren, passen Sie die Konfiguration selbst an:<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>Weitere Informationen finden Sie in der <a target="_blank" href="https://prometheus.io/">offiziellen Dokumentation</a>.<br>Dieses Softwarepaket wird von Mitgliedern der Community bereitgestellt und gepflegt."
+[install]
+basic_auth_users_title="basic_auth_users erstellen"
+basic_auth_users_help="Geben Sie vor der Installation einen Benutzernamen und ein Passwort an, um basic_auth_users zu erstellen.<br>Wenn Sie diese Funktion nicht benötigen, können Sie sie deaktiviert lassen."
+enable_basic_auth_users="basic_auth_users aktivieren"
+username_label="Benutzername"
+username_required="Bitte geben Sie einen Benutzernamen ein"
+username_pattern="Der Benutzername darf nur lateinische Buchstaben und Ziffern enthalten"
+password_label="Passwort"
+password_required="Bitte geben Sie ein Passwort ein"
+password_pattern="Das Passwort darf nur lateinische Buchstaben und Ziffern enthalten"

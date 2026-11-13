@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus는 Cloud Native Computing Foundation에 屬하는 體系 및 奉仕監視프로그람이며 時系列資料基地(TSDB) 機能을 提供합니다.<br>別途로 設定하지 않으면 9090번 포구에서 接續을 기다립니다. 資料를 保護하기 爲하여 防火壁, 暗號 및 其他 接近制限을 바로 設定하십시오.<br>basic_auth_users를 使用하는 境遇에는 다음의 構成화일을 直接 修正하십시오:<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>詳細한 內容은 <a target="_blank" href="https://prometheus.io/">公式文書</a>를 參考하십시오.<br>이 묶음쏘프트웨어는 共同體의 使用者들이 提供하고 維持管理합니다."
+[install]
+basic_auth_users_title="basic_auth_users 만들기"
+basic_auth_users_help="應用프로그람을 設置하기 前에 使用者이름과 暗號를 指定하여 basic_auth_users를 만드십시오.<br>이 機能이 必要하지 않으면 使用하지 않아도 됩니다."
+enable_basic_auth_users="basic_auth_users 使用"
+username_label="使用者이름"
+username_required="使用者이름을 入力하십시오"
+username_pattern="使用者이름에는 英文字(A-Z, a-z)와 數字(0-9)만 쓸수 있습니다"
+password_label="暗號"
+password_required="暗號를 入力하십시오"
+password_pattern="暗號에는 英文字(A-Z, a-z)와 數字(0-9)만 쓸수 있습니다"

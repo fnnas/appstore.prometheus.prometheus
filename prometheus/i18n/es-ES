@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus es un proyecto de la Cloud Native Computing Foundation que supervisa sistemas y servicios y proporciona una base de datos de series temporales (TSDB).<br>El puerto de escucha predeterminado es el 9090. Configure correctamente el cortafuegos, la contraseña y las demás restricciones de acceso para proteger sus datos.<br>Si activa basic_auth_users, modifique la configuración manualmente:<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>Para más información, consulte la <a target="_blank" href="https://prometheus.io/">documentación oficial</a>.<br>Este paquete de software lo proporcionan y mantienen miembros de la comunidad."
+[install]
+basic_auth_users_title="Crear basic_auth_users"
+basic_auth_users_help="Antes de instalar la aplicación, indique un nombre de usuario y una contraseña para generar basic_auth_users.<br>Si no necesita esta función, puede dejarla desactivada."
+enable_basic_auth_users="Activar basic_auth_users"
+username_label="Nombre de usuario"
+username_required="Introduzca un nombre de usuario"
+username_pattern="El nombre de usuario solo puede contener letras de la A a la Z y números"
+password_label="Contraseña"
+password_required="Introduzca una contraseña"
+password_pattern="La contraseña solo puede contener letras de la A a la Z y números"

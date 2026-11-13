@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus 是 Cloud Native Computing Foundation 的專案，提供系統與服務監控及時間序列資料庫（TSDB）功能。<br>預設監聽連接埠為 9090。請妥善設定防火牆、密碼及其他存取限制，以確保資料安全。<br>若啟用 basic_auth_users，請自行修改設定：<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>詳情請參閱<a target="_blank" href="https://prometheus.io/">官方文件</a>。<br>此軟體套件由社群使用者提供及維護。"
+[install]
+basic_auth_users_title="建立 basic_auth_users"
+basic_auth_users_help="安裝應用程式前，請指定使用者名稱與密碼，以產生 basic_auth_users。<br>若不需要此功能，可保持停用。"
+enable_basic_auth_users="啟用 basic_auth_users"
+username_label="使用者名稱"
+username_required="請輸入使用者名稱"
+username_pattern="使用者名稱只能包含英文字母與數字"
+password_label="密碼"
+password_required="請輸入密碼"
+password_pattern="密碼只能包含英文字母與數字"

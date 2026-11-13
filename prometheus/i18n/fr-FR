@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus est un projet de la Cloud Native Computing Foundation qui assure la surveillance des systèmes et des services et fournit une base de données de séries temporelles (TSDB).<br>Le port d'écoute par défaut est 9090. Configurez correctement le pare-feu, le mot de passe et les autres restrictions d'accès pour protéger vos données.<br>Si vous activez basic_auth_users, modifiez vous-même la configuration :<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>Pour en savoir plus, consultez la <a target="_blank" href="https://prometheus.io/">documentation officielle</a>.<br>Ce paquet logiciel est fourni et maintenu par des membres de la communauté."
+[install]
+basic_auth_users_title="Créer basic_auth_users"
+basic_auth_users_help="Avant d'installer l'application, indiquez un nom d'utilisateur et un mot de passe pour générer basic_auth_users.<br>Si vous n'avez pas besoin de cette fonction, vous pouvez la laisser désactivée."
+enable_basic_auth_users="Activer basic_auth_users"
+username_label="Nom d'utilisateur"
+username_required="Veuillez saisir un nom d'utilisateur"
+username_pattern="Le nom d'utilisateur ne peut contenir que des lettres latines non accentuées et des chiffres"
+password_label="Mot de passe"
+password_required="Veuillez saisir un mot de passe"
+password_pattern="Le mot de passe ne peut contenir que des lettres latines non accentuées et des chiffres"

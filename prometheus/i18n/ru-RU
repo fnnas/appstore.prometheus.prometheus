@@ -1,0 +1,12 @@
+[manifest]
+desc="Prometheus — проект Cloud Native Computing Foundation для мониторинга систем и служб с функциями базы данных временных рядов (TSDB).<br>Порт по умолчанию — 9090. Для защиты данных настройте межсетевой экран, пароль и другие ограничения доступа.<br>Если вы включите basic_auth_users, измените конфигурацию вручную:<br>/var/apps/prometheus.prometheus/shares/prometheus/prometheus/prometheus.yml<br>Подробнее см. в <a target="_blank" href="https://prometheus.io/">официальной документации</a>.<br>Этот программный пакет предоставляется и поддерживается участниками сообщества."
+[install]
+basic_auth_users_title="Создание basic_auth_users"
+basic_auth_users_help="Перед установкой приложения укажите имя пользователя и пароль для создания basic_auth_users.<br>Если эта функция не нужна, оставьте её отключённой."
+enable_basic_auth_users="Включить basic_auth_users"
+username_label="Имя пользователя"
+username_required="Введите имя пользователя"
+username_pattern="Имя пользователя может содержать только латинские буквы и цифры"
+password_label="Пароль"
+password_required="Введите пароль"
+password_pattern="Пароль может содержать только латинские буквы и цифры"
